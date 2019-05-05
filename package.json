@@ -1,0 +1,26 @@
+{
+  "name": "node-app-for-money",
+  "version": "1.0.0",
+  "description": "前后端数据交互项目",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install" : "npm install --prefix client",
+    "client" : "npm start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "李沅哲",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
