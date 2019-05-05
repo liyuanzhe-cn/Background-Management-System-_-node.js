@@ -1,5 +1,5 @@
 # Background-Management-System-_-node.js
-A Background Management System Model created by node.js &amp; vueCli3.X with Element Ui.
+A Background Management System Model created by node.js &amp; vueCli3.X with Element Ui.\r\n
 Language： chinese（simplified）
 This project has four main pages.
 Login Page, Registration Page, Management Control Page, 404 Page
